@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #244cbb;
+  --secondary-color: #234bbb;
+  --third-color: #051c42;
+  --pink-color: #ffd8d7;
+  --white-color: #ffffff;
+  --orange-color: #e1732c;
+  --orange-color-2: #e43834;
+  --yellow-color: #ffc202;
+  --red-color: #e10600;
+  --gray-color: #999999;
+  --gray-color-2: #808080;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 62.5%;
+}
+
+h1 {
+  font-family: "Asap", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
