@@ -23,11 +23,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Link Swiper's CSS -->
+    <!-- swiper css -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+    <!-- swiper css -->
 
     <link rel="stylesheet" href="./assets/styles/base.css" />
     <link rel="stylesheet" href="./assets/styles/row.css" />
@@ -35,9 +36,9 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <header class="header desktop">
         <div class="container header--inner">
-          <img src="./assets/imgs/logo.png" alt="" />
+          <a href="/"><img src="./assets/imgs/logo.png" alt="" /></a>
           <div class="header--search">
             <input type="text" />
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -51,11 +52,11 @@
               <i class="fa-solid fa-heart"></i>
               Wishlist
             </a>
-            <a href="#">
+            <a href="/dang-nhap.html">
               <i class="fa-solid fa-user"></i>
               Đăng nhập
             </a>
-            <a href="#">
+            <a href="/cart.html">
               <i class="fa-solid fa-cart-shopping"></i>
               Giỏ hàng
             </a>
@@ -73,6 +74,15 @@
           <li><a href="#">News</a></li>
         </ul>
       </header>
+      <header class="header mobile">
+        <div class="container header--inner">
+          <div>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </header>
       <div class="promotion-tag">
         Giảm đến <strong><u>60% OFF</u></strong> tất cả sản phẩm*.
         <a class="orange-btn" href="#">Mua ngay!</a>
@@ -86,12 +96,24 @@
           <span>Xương Gặm Cho Chó Fonti Inu - Xương Nơ Mini </span>
         </div>
         <div class="product-detail">
-          <div class="swiper product-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide product-image-child">Slide 1</div>
-              <div class="swiper-slide product-image-child">Slide 2</div>
-              <div class="swiper-slide product-image-child">Slide 3</div>
-              <div class="swiper-slide product-image-child">Slide 4</div>
+          <div class="product-pag">
+            <div class="swiper-slide product-image-child">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0624/1746/9697/products/hat-reflex-kitten-cho-meo-con-vi-ga-and-gao-2kg-paddy-3_medium.jpg?v=1660972334"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide product-image-child">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0624/1746/9697/products/hat-reflex-kitten-cho-meo-con-vi-ga-and-gao-2kg-paddy-2_medium.jpg?v=1660972329"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide product-image-child">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0624/1746/9697/products/hat-reflex-kitten-cho-meo-con-vi-ga-and-gao-2kg-paddy-1.png?v=1660972325"
+                alt=""
+              />
             </div>
           </div>
           <div class="product-main-image">
@@ -137,6 +159,148 @@
               <i class="fa-regular fa-heart"></i>
               <i class="fa-solid fa-share-from-square"></i>
             </div>
+            <div class="product-freeship">
+              <p>Miễn Phí Vận Chuyển</p>
+              <p>Tối đa 30K cho đơn hàng từ 500K</p>
+              <p>Hoả tốc 4h trong nội thành HCM</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-des-fee">
+          <div class="product-des-fee--btns">
+            <button class="active">Mô Tả</button>
+            <button>Đánh Giá</button>
+          </div>
+          <div class="product-des-box">
+            <div class="des-box">
+              <p>
+                1. Thức ăn cho mèo Reflex Kitten Food Chicken & Rice (2Kg) –
+                Thức ăn khô cho mèo với công thức cân bằng và hoàn chỉnh dành
+                cho mèo con. – Dành cho tất cả giống mèo từ 2 tháng đến 12 tháng
+                tuổi. Thể trọng từ 0.5kg – 5kg.
+              </p>
+              <p>
+                @ Công thức đặc biệt dành cho các giống mèo con. <br />
+                @ Sự cân bằng của Omega 3 & Omega 6 đã đạt được bằng cách sử
+                dụng hạt lanh giúp lông bóng mượt. <br />@ Chiết xuất cây Yucca
+                giúp tăng khả năng hấp thụ dinh dưỡng, kiểm soát mùi. Men bia
+                giúp hệ thống miễn dịch được tăng cường & năng suất vật nuôi
+                được cải thiện. <br />@ Bổ sung Vitamin A, D3, E, C và khoáng
+                chất.
+              </p>
+              <p>
+                – Trọng lượng: 2kg / gói – Xuất xứ: Thổ Nhĩ Kỳ – Lider Pet Food
+                (https://www.liderpet.com.tr) – Hướng dẫn sử dụng: ghi trên bao
+                bì. – Cách cho ăn: Chia làm 2-3 bữa ăn / ngày
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="related-products">
+          <h4 class="">Sản phẩm liên quan</h4>
+
+          <div class="products">
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div>
+                <p class="price">120.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div>
+                <p class="price">120.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div>
+                <p class="price">120.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div>
+                <p class="price">120.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <span class="discount-tag">Giảm giá</span>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div class="price-group">
+                <p class="price old">120.000đ</p>
+                <p class="price new">80.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <span class="discount-tag">Giảm giá</span>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div class="price-group">
+                <p class="price old">120.000đ</p>
+                <p class="price new">80.000đ</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -201,10 +365,20 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <script>
-      const productSwiper = new Swiper(".product-swiper", {
-        direction: "vertical",
-        slidesPerView: 3,
-        spaceBetween: 20,
+      const productImageChilds = document.querySelectorAll(
+        ".product-image-child"
+      );
+
+      const productMainImage = document.querySelector(".product-main-image");
+
+      productMainImage.querySelector("img").src =
+        productImageChilds[0].querySelector("img").src;
+
+      productImageChilds.forEach((item, idx) => {
+        item.onclick = function () {
+          const imgSrc = this.querySelector("img").src;
+          productMainImage.querySelector("img").src = imgSrc;
+        };
       });
     </script>
   </body>

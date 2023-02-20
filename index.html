@@ -37,9 +37,9 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <header class="header desktop">
         <div class="container header--inner">
-          <img src="./assets/imgs/logo.png" alt="" />
+          <a href="/"><img src="./assets/imgs/logo.png" alt="" /></a>
           <div class="header--search">
             <input type="text" />
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -53,11 +53,11 @@
               <i class="fa-solid fa-heart"></i>
               Wishlist
             </a>
-            <a href="#">
+            <a href="/dang-nhap.html">
               <i class="fa-solid fa-user"></i>
               Đăng nhập
             </a>
-            <a href="#">
+            <a href="/cart.html">
               <i class="fa-solid fa-cart-shopping"></i>
               Giỏ hàng
             </a>
@@ -74,6 +74,15 @@
           <li><a href="#">chăm boss</a></li>
           <li><a href="#">News</a></li>
         </ul>
+      </header>
+      <header class="header mobile">
+        <div class="container header--inner">
+          <div>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
       </header>
       <div class="promotion-tag">
         Giảm đến <strong><u>60% OFF</u></strong> tất cả sản phẩm*.
@@ -126,42 +135,42 @@
           <a href="#">xem tất cả</a>
         </div>
         <div class="highlight-collection mt-20">
-          <a href="#">
+          <a href="/products.html">
             <img
               src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
               alt=""
             />
             <p>Pate cho miu</p>
           </a>
-          <a href="#">
+          <a href="/products.html">
             <img
               src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
               alt=""
             />
             <p>Pate cho miu</p>
           </a>
-          <a href="#">
+          <a href="/products.html">
             <img
               src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
               alt=""
             />
             <p>Pate cho miu</p>
           </a>
-          <a href="#">
+          <a href="/products.html">
             <img
               src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
               alt=""
             />
             <p>Pate cho miu</p>
           </a>
-          <a href="#">
+          <a href="/products.html">
             <img
               src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
               alt=""
             />
             <p>Pate cho miu</p>
           </a>
-          <a href="#">
+          <a href="/products.html">
             <img
               src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
               alt=""
@@ -599,11 +608,19 @@
         const bossLoveSwiper = new Swiper("#boss-love-swiper", {
           // Optional parameters
           loop: true,
-          slidesPerView: 6,
+          slidesPerView: 2,
           spaceBetween: 20,
           speed: 800,
           autoplay: {
             delay: 2000,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 4,
+            },
+            1024: {
+              slidesPerView: 6,
+            },
           },
         });
 
@@ -618,11 +635,19 @@
         const newsSwiper = new Swiper("#news-swiper", {
           // Optional parameters
           loop: true,
-          slidesPerView: 3,
+          slidesPerView: 1,
           spaceBetween: 20,
           speed: 800,
           autoplay: {
             delay: 2000,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
           },
         });
         newsPrev.onclick = () => {
@@ -636,11 +661,19 @@
         const shopSwiper = new Swiper("#shop-swiper", {
           // Optional parameters
           loop: true,
-          slidesPerView: 3,
+          slidesPerView: 1,
           spaceBetween: 20,
           speed: 800,
           autoplay: {
             delay: 2200,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
           },
         });
         shopPrev.onclick = () => {

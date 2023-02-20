@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paddy - Sản phẩm</title>
+    <title>Paddy - Giỏ hàng</title>
     <link rel="icon" type="image/png" href="./assets/imgs/favicon.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,6 +23,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- swiper css -->
 
     <link rel="stylesheet" href="./assets/styles/base.css" />
     <link rel="stylesheet" href="./assets/styles/row.css" />
@@ -87,143 +94,54 @@
           <span
             ><i style="font-size: 11px" class="fa-solid fa-chevron-right"></i
           ></span>
-          <span>Xương Gặm Cho Chó </span>
+          <span>Giỏ hàng </span>
         </div>
-        <h1 class="products-title">Xương Gặm Cho Chó</h1>
-        <div class="products-filters">
-          <i class="fa-solid fa-filter"></i>
-          <div class="product-filter">
-            thương hiệu
-            <i class="fa-solid fa-angle-up"></i>
+        <div class="cart-wrapper">
+          <table class="cart-table">
+            <tr class="table-title">
+              <th>Sản phẩm</th>
+              <th>giá</th>
+              <th>số lượng</th>
+              <th>tổng</th>
+            </tr>
+            <tr class="table-content">
+              <td class="">
+                <div class="cart-product-img">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0624/1746/9697/products/vien-duong-long-poodle-beauty-hair-paddy-1.jpg?v=1670218492"
+                    alt=""
+                  />
+                  <div class="cart-product-name">
+                    <p class="product-name">
+                      Áo Dài Tết Cho Chó Mèo Vải Lụa Kèm Quần Rời
+                    </p>
+                    <p class="product-name--detail">Hạc Vàng / S 1.5~2.5kg</p>
+                  </div>
+                </div>
+              </td>
+              <td class="cart-product-price">100.000đ</td>
+              <td>
+                <div class="product-quantity--in-de">
+                  <i class="fa-solid fa-minus"></i>
+                  <span>1</span>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </td>
+              <td class="cart-product-price">200.000đ</td>
+            </tr>
+          </table>
+          <div>
+            <p class="cart-total-title">tổng số tiền</p>
+            <div class="form-group">
+              <label for="text">Mã khuyến mãi</label>
+              <input name="text" type="text" placeholder="KHAN10DIEM" />
+            </div>
+            <p class="cart-total"><span>Tổng tiền:</span> 200.000đ</p>
+            <div class="cart-btns">
+              <button>Đi đến trang thanh toán</button>
+              <button>Tiếp tục mua sắm</button>
+            </div>
           </div>
-          <div class="product-filter">
-            trạng thái sẵn sàng
-            <i class="fa-solid fa-angle-up"></i>
-          </div>
-          <div class="product-filter">
-            giá
-            <i class="fa-solid fa-angle-up"></i>
-          </div>
-          <div class="product-filter">
-            loại sản phẩm
-            <i class="fa-solid fa-angle-up"></i>
-          </div>
-          <div class="product-filter">
-            size
-            <i class="fa-solid fa-angle-up"></i>
-          </div>
-        </div>
-        <div class="products-arrange">
-          <div class="product-filter">
-            50
-            <i class="fa-solid fa-angle-up"></i>
-          </div>
-          <div class="product-filter">
-            Sắp xếp theo
-            <i class="fa-solid fa-angle-up"></i>
-          </div>
-        </div>
-        <div class="products">
-          <a class="product" href="/product-details.html">
-            <div class="product-img">
-              <button class="product-add-cart">Thêm vào giỏ hàng</button>
-              <img src="./assets/imgs/p1.webp" alt="" />
-            </div>
-            <div class="product-title">
-              <h4>Natural Core</h4>
-              <button>
-                <i class="fa-regular fa-heart"></i>
-              </button>
-            </div>
-            <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
-            <div>
-              <p class="price">120.000đ</p>
-            </div>
-          </a>
-          <a class="product" href="/product-details.html">
-            <div class="product-img">
-              <button class="product-add-cart">Thêm vào giỏ hàng</button>
-              <img src="./assets/imgs/p1.webp" alt="" />
-            </div>
-            <div class="product-title">
-              <h4>Natural Core</h4>
-              <button>
-                <i class="fa-regular fa-heart"></i>
-              </button>
-            </div>
-            <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
-            <div>
-              <p class="price">120.000đ</p>
-            </div>
-          </a>
-          <a class="product" href="/product-details.html">
-            <div class="product-img">
-              <button class="product-add-cart">Thêm vào giỏ hàng</button>
-              <img src="./assets/imgs/p1.webp" alt="" />
-            </div>
-            <div class="product-title">
-              <h4>Natural Core</h4>
-              <button>
-                <i class="fa-regular fa-heart"></i>
-              </button>
-            </div>
-            <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
-            <div>
-              <p class="price">120.000đ</p>
-            </div>
-          </a>
-          <a class="product" href="/product-details.html">
-            <div class="product-img">
-              <button class="product-add-cart">Thêm vào giỏ hàng</button>
-              <img src="./assets/imgs/p1.webp" alt="" />
-            </div>
-            <div class="product-title">
-              <h4>Natural Core</h4>
-              <button>
-                <i class="fa-regular fa-heart"></i>
-              </button>
-            </div>
-            <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
-            <div>
-              <p class="price">120.000đ</p>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-img">
-              <button class="product-add-cart">Thêm vào giỏ hàng</button>
-              <img src="./assets/imgs/p1.webp" alt="" />
-            </div>
-            <span class="discount-tag">Giảm giá</span>
-            <div class="product-title">
-              <h4>Natural Core</h4>
-              <button>
-                <i class="fa-regular fa-heart"></i>
-              </button>
-            </div>
-            <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
-            <div class="price-group">
-              <p class="price old">120.000đ</p>
-              <p class="price new">80.000đ</p>
-            </div>
-          </a>
-          <a class="product" href="#">
-            <div class="product-img">
-              <button class="product-add-cart">Thêm vào giỏ hàng</button>
-              <img src="./assets/imgs/p1.webp" alt="" />
-            </div>
-            <span class="discount-tag">Giảm giá</span>
-            <div class="product-title">
-              <h4>Natural Core</h4>
-              <button>
-                <i class="fa-regular fa-heart"></i>
-              </button>
-            </div>
-            <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
-            <div class="price-group">
-              <p class="price old">120.000đ</p>
-              <p class="price new">80.000đ</p>
-            </div>
-          </a>
         </div>
       </div>
       <footer>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập</title>
+    <link rel="icon" type="image/png" href="./assets/imgs/favicon.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/styles/base.css" />
+    <link rel="stylesheet" href="./assets/styles/row.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header desktop">
+        <div class="container header--inner">
+          <a href="/"><img src="./assets/imgs/logo.png" alt="" /></a>
+          <div class="header--search">
+            <input type="text" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="header--icon-group">
+            <a href="tel:+0394696310">
+              <p>Hotline</p>
+              <b>0394696310</b>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-heart"></i>
+              Wishlist
+            </a>
+            <a href="/dang-nhap.html">
+              <i class="fa-solid fa-user"></i>
+              Đăng nhập
+            </a>
+            <a href="/cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Giỏ hàng
+            </a>
+          </div>
+        </div>
+        <ul class="container header--tags">
+          <li><a href="#">Chó</a></li>
+          <li><a href="#">Mèo</a></li>
+          <li><a href="#">Thời trang boss</a></li>
+          <li><a href="#">Hàng mới về</a></li>
+          <li><a href="#">Pate tươi & raw</a></li>
+          <li><a href="#">Deals hot</a></li>
+          <li><a href="#">Thương hiệu</a></li>
+          <li><a href="#">chăm boss</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </header>
+      <header class="header mobile">
+        <div class="container header--inner">
+          <div>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </header>
+      <div class="promotion-tag">
+        Giảm đến <strong><u>60% OFF</u></strong> tất cả sản phẩm*.
+        <a class="orange-btn" href="#">Mua ngay!</a>
+      </div>
+      <div class="container">
+        <div class="breadcrumb">
+          <span>Trang Chủ </span>
+          <span
+            ><i style="font-size: 11px" class="fa-solid fa-chevron-right"></i
+          ></span>
+          <span>Đăng nhập</span>
+        </div>
+        <div class="login-wrapper">
+          <div class="login">
+            <h3>Đăng nhập</h3>
+            <p>Vui lòng đăng nhập bằng email và mật khẩu</p>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input name="email" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Mật khẩu</label>
+              <input name="password" type="password" />
+            </div>
+            <div class="login-btns">
+              <button>Đăng nhập</button>
+              <a href="#">Quên mật khẩu</a>
+            </div>
+          </div>
+          <div class="register">
+            <h3>Đăng ký</h3>
+            <p>Vui lòng đăng ký bên dưới để tạo tài khoản</p>
+            <div class="form-group">
+              <label for="first_name">Tên</label>
+              <input name="first_name" type="first_name" />
+            </div>
+            <div class="form-group">
+              <label for="last_name">Họ</label>
+              <input name="last_name" type="last_name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input name="email" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Mật khẩu</label>
+              <input name="password" type="password" />
+            </div>
+            <div class="form-group">
+              <label for="re_password">Nhập lại mật khẩu</label>
+              <input name="re_password" type="password" />
+            </div>
+            <div class="login-btns">
+              <button class="create">Tạo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-title">
+            <h2>Đăng ký thành viên ngay hôm nay</h2>
+            <p>
+              Đăng ký thành viên ngay hôm nay để nhận email về sản phẩm mới và
+              chương trình khuyến mãi của Paddy
+            </p>
+          </div>
+          <div class="footer-email">
+            <div class="email-input">
+              <input type="email" placeholder="Email của bạn" />
+            </div>
+            <button>Đăng ký</button>
+          </div>
+          <ul class="footer-list">
+            <li>
+              <p>Shop</p>
+              <a href="#">Dành cho chó</a>
+              <a href="#">Dành cho mèo</a>
+              <a href="#">thương hiệu</a>
+              <a href="#">blogs</a>
+              <a href="#">bộ sưu tập</a>
+            </li>
+            <li>
+              <p>Paddy Pet Shop</p>
+              <a href="#">Giới thiệu</a>
+              <a href="#">thành viên paddier</a>
+              <a href="#">điều khoản sử dụng</a>
+              <a href="#">tuyển dụng</a>
+            </li>
+            <li>
+              <p>hỗ trợ khách hàng</p>
+              <a href="#">chính sách đổi trả hàng</a>
+              <a href="#">phương thức vận chuyển</a>
+              <a href="#">chính sách bảo mật</a>
+              <a href="#">phương thức thanh toán</a>
+              <a href="#">chính sách hoàn tiền</a>
+            </li>
+            <li>
+              <p>liên hệ</p>
+              <a href="#"
+                >Cửa Hàng: 168 Trường Sa Phường 1, Bình Thạnh, TP.HCM</a
+              >
+              <a href="#"
+                >Cửa Hàng: 412/3 Nơ Trang Long Phường 13, Bình Thạnh, TP.HCM</a
+              >
+              <a href="#">Hotline: 0374 414142</a>
+              <a href="#">Email: hotro.paddy.vn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
