@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paddy Shop</title>
+    <link rel="icon" type="image/png" href="./assets/imgs/favicon.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +16,641 @@
       href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- swiper css -->
+
+    <link rel="stylesheet" href="./assets/styles/base.css" />
+    <link rel="stylesheet" href="./assets/styles/row.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header--inner">
+          <img src="./assets/imgs/logo.png" alt="" />
+          <div class="header--search">
+            <input type="text" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="header--icon-group">
+            <a href="tel:+0394696310">
+              <p>Hotline</p>
+              <b>0394696310</b>
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-heart"></i>
+              Wishlist
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-user"></i>
+              Đăng nhập
+            </a>
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Giỏ hàng
+            </a>
+          </div>
+        </div>
+        <ul class="container header--tags">
+          <li><a href="#">Chó</a></li>
+          <li><a href="#">Mèo</a></li>
+          <li><a href="#">Thời trang boss</a></li>
+          <li><a href="#">Hàng mới về</a></li>
+          <li><a href="#">Pate tươi & raw</a></li>
+          <li><a href="#">Deals hot</a></li>
+          <li><a href="#">Thương hiệu</a></li>
+          <li><a href="#">chăm boss</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </header>
+      <div class="promotion-tag">
+        Giảm đến <strong><u>60% OFF</u></strong> tất cả sản phẩm*.
+        <a class="orange-btn" href="#">Mua ngay!</a>
+      </div>
+      <div class="container banner">
+        <a href="#" class="banner-image"></a>
+        <ul class="banner-list">
+          <li>
+            <h6>Miễn phí vận chuyển</h6>
+            <p>
+              Áp dụng cho đơn hàng từ 500K <br />
+              Hoả tốc 4h trong nội thành HCM
+            </p>
+          </li>
+          <li>
+            <h6>hàng chính hãng</h6>
+            <p>
+              Hàng chính hãng
+              <br />
+              Đổi trả hàng trong vòng 7 ngày
+            </p>
+          </li>
+          <li>
+            <h6>thanh toán tiện lợi</h6>
+            <p>
+              Thanh toán trực tuyến bằng Thẻ ATM, Thẻ tín dụng, Momo, Chuyển
+              khoản
+            </p>
+          </li>
+          <li>
+            <h6>hỗ trợ chuyên nghiệp</h6>
+            <p>
+              Hotline 0374 41 41 42. <br />
+              Tư vấn và hỗ trợ 7 ngày trong tuần
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="container section buy-with-pet">
+        <h4 class="lit-title">Mua sắm theo thú cưng</h4>
+        <div class="imgs">
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div class="container section">
+        <div class="title-section">
+          <h4 class="lit-title mx-center">Bộ sưu tập nổi bật</h4>
+          <a href="#">xem tất cả</a>
+        </div>
+        <div class="highlight-collection mt-20">
+          <a href="#">
+            <img
+              src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
+              alt=""
+            />
+            <p>Pate cho miu</p>
+          </a>
+          <a href="#">
+            <img
+              src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
+              alt=""
+            />
+            <p>Pate cho miu</p>
+          </a>
+          <a href="#">
+            <img
+              src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
+              alt=""
+            />
+            <p>Pate cho miu</p>
+          </a>
+          <a href="#">
+            <img
+              src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
+              alt=""
+            />
+            <p>Pate cho miu</p>
+          </a>
+          <a href="#">
+            <img
+              src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
+              alt=""
+            />
+            <p>Pate cho miu</p>
+          </a>
+          <a href="#">
+            <img
+              src="./assets/imgs/collection_banner_pate_rc_kitten_570x.webp"
+              alt=""
+            />
+            <p>Pate cho miu</p>
+          </a>
+        </div>
+        <div class="highlight-collection highlight-collection--bottom mt-30">
+          <a href="#">
+            <img src="./assets/imgs/hairball_510x.webp" alt="" />
+            <p>Combo tiêu búi lông</p>
+          </a>
+          <a href="#">
+            <img src="./assets/imgs/hairball_510x.webp" alt="" />
+            <p>Combo tiêu búi lông</p>
+          </a>
+          <a href="#">
+            <img src="./assets/imgs/hairball_510x.webp" alt="" />
+            <p>Combo tiêu búi lông</p>
+          </a>
+          <a href="#">
+            <img src="./assets/imgs/hairball_510x.webp" alt="" />
+            <p>Combo tiêu búi lông</p>
+          </a>
+        </div>
+      </div>
+      <div class="container section">
+        <h4 class="lit-title">Được boss yêu thích</h4>
+        <div class="products-arrows-wrapper">
+          <button id="boss-love-prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="boss-love-next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="swiper" id="boss-love-swiper">
+          <div class="swiper-wrapper">
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div>
+                <p class="price">120.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div>
+                <p class="price">120.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div>
+                <p class="price">120.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div>
+                <p class="price">120.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <span class="discount-tag">Giảm giá</span>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div class="price-group">
+                <p class="price old">120.000đ</p>
+                <p class="price new">80.000đ</p>
+              </div>
+            </a>
+            <a class="product swiper-slide" href="#">
+              <div class="product-img">
+                <button class="product-add-cart">Thêm vào giỏ hàng</button>
+                <img src="./assets/imgs/p1.webp" alt="" />
+              </div>
+              <span class="discount-tag">Giảm giá</span>
+              <div class="product-title">
+                <h4>Natural Core</h4>
+                <button>
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <p>Hạt Cho Mèo Con Hữu Cơ Natural Core Kitten</p>
+              <div class="price-group">
+                <p class="price old">120.000đ</p>
+                <p class="price new">80.000đ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container section">
+        <div class="title-section">
+          <h4 class="lit-title">1000+ Thương Hiệu Boss Thích</h4>
+          <a href="#">Xem tất cả</a>
+        </div>
+        <div class="brands-list">
+          <a href="#" class="brand">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/nutrience_logo_534x.png?v=1671338493"
+              alt=""
+            />
+            <p>Nutrience</p>
+          </a>
+          <a href="#" class="brand">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/royal_canin_logo_bf62d31c-c2a2-4ec3-bc66-6eccdeffb5af_534x.png?v=1671338889"
+              alt=""
+            />
+            <p>Royal Canin</p>
+          </a>
+          <a href="#" class="brand">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/nexgard_logo_534x.png?v=1671342611"
+              alt=""
+            />
+            <p>Nexgard</p>
+          </a>
+          <a href="#" class="brand">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/kit_cat_logo_534x.png?v=1671342867"
+              alt=""
+            />
+            <p>Kit Cat</p>
+          </a>
+          <a href="#" class="brand">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/kit_cat_logo_534x.png?v=1671342867"
+              alt=""
+            />
+            <p>Kit Cat</p>
+          </a>
+          <a href="#" class="brand">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/kit_cat_logo_534x.png?v=1671342867"
+              alt=""
+            />
+            <p>Kit Cat</p>
+          </a>
+          <a href="#" class="brand">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/kit_cat_logo_534x.png?v=1671342867"
+              alt=""
+            />
+            <p>Kit Cat</p>
+          </a>
+          <a href="#" class="brand">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/kit_cat_logo_534x.png?v=1671342867"
+              alt=""
+            />
+            <p>Kit Cat</p>
+          </a>
+        </div>
+      </div>
+      <div class="container section">
+        <div class="products-arrows-wrapper">
+          <button id="news-prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="news-next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="title-section">
+          <h4 class="lit-title">Chăm Boss Cùng Paddy</h4>
+          <a href="#">Xem tất cả</a>
+        </div>
+        <div class="swiper" id="news-swiper">
+          <div class="news-list swiper-wrapper" style="position: relative">
+            <div class="news swiper-slide">
+              <div class="news-img">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0624/1746/9697/articles/benh-fip-o-meo-va-cach-phong-ngua_720x.png?v=1675412987"
+                  alt=""
+                />
+              </div>
+              <di class="news-content">
+                <h4 class="news-title">Bệnh FIP Ở Mèo Và Cách Phòng Ngừa</h4>
+                <p>
+                  Bệnh FIP là loại bệnh mà mèo thường mắc phải. Vậy loại bệnh
+                  này có thật sự nguy hiểm không? Nguyên...
+                </p>
+                <a href="#">Đọc thêm</a>
+              </di>
+            </div>
+            <div class="news swiper-slide">
+              <div class="news-img">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0624/1746/9697/articles/benh-fip-o-meo-va-cach-phong-ngua_720x.png?v=1675412987"
+                  alt=""
+                />
+              </div>
+              <di class="news-content">
+                <h4 class="news-title">Bệnh FIP Ở Mèo Và Cách Phòng Ngừa</h4>
+                <p>
+                  Bệnh FIP là loại bệnh mà mèo thường mắc phải. Vậy loại bệnh
+                  này có thật sự nguy hiểm không? Nguyên...
+                </p>
+                <a href="#">Đọc thêm</a>
+              </di>
+            </div>
+            <div class="news swiper-slide">
+              <div class="news-img">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0624/1746/9697/articles/benh-fip-o-meo-va-cach-phong-ngua_720x.png?v=1675412987"
+                  alt=""
+                />
+              </div>
+              <di class="news-content">
+                <h4 class="news-title">Bệnh FIP Ở Mèo Và Cách Phòng Ngừa</h4>
+                <p>
+                  Bệnh FIP là loại bệnh mà mèo thường mắc phải. Vậy loại bệnh
+                  này có thật sự nguy hiểm không? Nguyên...
+                </p>
+                <a href="#">Đọc thêm</a>
+              </di>
+            </div>
+            <div class="news swiper-slide">
+              <div class="news-img">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0624/1746/9697/articles/benh-fip-o-meo-va-cach-phong-ngua_720x.png?v=1675412987"
+                  alt=""
+                />
+              </div>
+              <di class="news-content">
+                <h4 class="news-title">Bệnh FIP Ở Mèo Và Cách Phòng Ngừa</h4>
+                <p>
+                  Bệnh FIP là loại bệnh mà mèo thường mắc phải. Vậy loại bệnh
+                  này có thật sự nguy hiểm không? Nguyên...
+                </p>
+                <a href="#">Đọc thêm</a>
+              </di>
+            </div>
+            <div class="news swiper-slide">
+              <div class="news-img">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0624/1746/9697/articles/benh-fip-o-meo-va-cach-phong-ngua_720x.png?v=1675412987"
+                  alt=""
+                />
+              </div>
+              <di class="news-content">
+                <h4 class="news-title">Bệnh FIP Ở Mèo Và Cách Phòng Ngừa</h4>
+                <p>
+                  Bệnh FIP là loại bệnh mà mèo thường mắc phải. Vậy loại bệnh
+                  này có thật sự nguy hiểm không? Nguyên...
+                </p>
+                <a href="#">Đọc thêm</a>
+              </di>
+            </div>
+            <div class="news swiper-slide">
+              <div class="news-img">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0624/1746/9697/articles/benh-fip-o-meo-va-cach-phong-ngua_720x.png?v=1675412987"
+                  alt=""
+                />
+              </div>
+              <di class="news-content">
+                <h4 class="news-title">Bệnh FIP Ở Mèo Và Cách Phòng Ngừa</h4>
+                <p>
+                  Bệnh FIP là loại bệnh mà mèo thường mắc phải. Vậy loại bệnh
+                  này có thật sự nguy hiểm không? Nguyên...
+                </p>
+                <a href="#">Đọc thêm</a>
+              </di>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container section">
+        <div class="products-arrows-wrapper">
+          <button id="shop-prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="shop-next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <h3 class="lit-title">Mua trực tiếp tại cửa hàng Paddy</h3>
+        <p class="shop-address">
+          168 Trường Sa, Phường 1, Q. Bình Thạnh, Tp Hồ Chí Minh
+        </p>
+        <div class="swiper" id="shop-swiper">
+          <div class="shop-list swiper-wrapper">
+            <div class="shop swiper-slide">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/paddy_shop_2.jpg?v=1670165930"
+                alt=""
+              />
+            </div>
+            <div class="shop swiper-slide">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/paddy_shop.jpg?v=1670165458"
+                alt=""
+              />
+            </div>
+            <div class="shop swiper-slide">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/paddy_shop_1.jpg?v=1670165638"
+                alt=""
+              />
+            </div>
+            <div class="shop swiper-slide">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0624/1746/9697/files/paddy_shop_3.jpg?v=1670165985"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <a class="direct-guide" href="#">Chỉ đường</a>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-title">
+            <h2>Đăng ký thành viên ngay hôm nay</h2>
+            <p>
+              Đăng ký thành viên ngay hôm nay để nhận email về sản phẩm mới và
+              chương trình khuyến mãi của Paddy
+            </p>
+          </div>
+          <div class="footer-email">
+            <div class="email-input">
+              <input type="email" placeholder="Email của bạn" />
+            </div>
+            <button>Đăng ký</button>
+          </div>
+          <ul class="footer-list">
+            <li>
+              <p>Shop</p>
+              <a href="#">Dành cho chó</a>
+              <a href="#">Dành cho mèo</a>
+              <a href="#">thương hiệu</a>
+              <a href="#">blogs</a>
+              <a href="#">bộ sưu tập</a>
+            </li>
+            <li>
+              <p>Paddy Pet Shop</p>
+              <a href="#">Giới thiệu</a>
+              <a href="#">thành viên paddier</a>
+              <a href="#">điều khoản sử dụng</a>
+              <a href="#">tuyển dụng</a>
+            </li>
+            <li>
+              <p>hỗ trợ khách hàng</p>
+              <a href="#">chính sách đổi trả hàng</a>
+              <a href="#">phương thức vận chuyển</a>
+              <a href="#">chính sách bảo mật</a>
+              <a href="#">phương thức thanh toán</a>
+              <a href="#">chính sách hoàn tiền</a>
+            </li>
+            <li>
+              <p>liên hệ</p>
+              <a href="#"
+                >Cửa Hàng: 168 Trường Sa Phường 1, Bình Thạnh, TP.HCM</a
+              >
+              <a href="#"
+                >Cửa Hàng: 412/3 Nơ Trang Long Phường 13, Bình Thạnh, TP.HCM</a
+              >
+              <a href="#">Hotline: 0374 414142</a>
+              <a href="#">Email: hotro.paddy.vn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="support">
+      <i class="fa-solid fa-headset"></i>
+      <span>Hỗ trợ</span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer>
+      document.addEventListener("DOMContentLoaded", () => {
+        const bossLovePrev = document.querySelector("button#boss-love-prev");
+        const bossLoveNext = document.querySelector("button#boss-love-next");
+        const newsPrev = document.querySelector("button#news-prev");
+        const newsNext = document.querySelector("button#news-next");
+        const shopPrev = document.querySelector("button#shop-prev");
+        const shopNext = document.querySelector("button#shop-next");
+
+        const bossLoveSwiper = new Swiper("#boss-love-swiper", {
+          // Optional parameters
+          loop: true,
+          slidesPerView: 6,
+          spaceBetween: 20,
+          speed: 800,
+          autoplay: {
+            delay: 2000,
+          },
+        });
+
+        bossLovePrev.onclick = () => {
+          bossLoveSwiper.slidePrev();
+        };
+
+        bossLoveNext.onclick = () => {
+          bossLoveSwiper.slideNext();
+        };
+
+        const newsSwiper = new Swiper("#news-swiper", {
+          // Optional parameters
+          loop: true,
+          slidesPerView: 3,
+          spaceBetween: 20,
+          speed: 800,
+          autoplay: {
+            delay: 2000,
+          },
+        });
+        newsPrev.onclick = () => {
+          newsSwiper.slidePrev();
+        };
+
+        newsNext.onclick = () => {
+          newsSwiper.slideNext();
+        };
+
+        const shopSwiper = new Swiper("#shop-swiper", {
+          // Optional parameters
+          loop: true,
+          slidesPerView: 3,
+          spaceBetween: 20,
+          speed: 800,
+          autoplay: {
+            delay: 2200,
+          },
+        });
+        shopPrev.onclick = () => {
+          shopSwiper.slidePrev();
+        };
+
+        shopNext.onclick = () => {
+          shopSwiper.slideNext();
+        };
+      });
+    </script>
+  </body>
 </html>
