@@ -78,7 +78,11 @@
       <header class="header mobile">
         <div class="container header--inner">
           <div>
-            <i class="fa-solid fa-bars"></i>
+            <div class="toggle-menu-mobile">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
           <i class="fa-solid fa-cart-shopping"></i>
@@ -90,46 +94,48 @@
       </div>
       <div class="container">
         <div class="breadcrumb">
-          <span>Trang Chủ </span>
+          <a href="/">Trang Chủ </a>
           <span
             ><i style="font-size: 11px" class="fa-solid fa-chevron-right"></i
           ></span>
           <span>Giỏ hàng </span>
         </div>
         <div class="cart-wrapper">
-          <table class="cart-table">
-            <tr class="table-title">
-              <th>Sản phẩm</th>
-              <th>giá</th>
-              <th>số lượng</th>
-              <th>tổng</th>
-            </tr>
-            <tr class="table-content">
-              <td class="">
-                <div class="cart-product-img">
-                  <img
-                    src="https://cdn.shopify.com/s/files/1/0624/1746/9697/products/vien-duong-long-poodle-beauty-hair-paddy-1.jpg?v=1670218492"
-                    alt=""
-                  />
-                  <div class="cart-product-name">
-                    <p class="product-name">
-                      Áo Dài Tết Cho Chó Mèo Vải Lụa Kèm Quần Rời
-                    </p>
-                    <p class="product-name--detail">Hạc Vàng / S 1.5~2.5kg</p>
+          <div class="sticky-table">
+            <table class="cart-table">
+              <tr class="table-title">
+                <th>Sản phẩm</th>
+                <th>giá</th>
+                <th>số lượng</th>
+                <th>tổng</th>
+              </tr>
+              <tr class="table-content">
+                <td class="">
+                  <div class="cart-product-img">
+                    <img
+                      src="https://cdn.shopify.com/s/files/1/0624/1746/9697/products/vien-duong-long-poodle-beauty-hair-paddy-1.jpg?v=1670218492"
+                      alt=""
+                    />
+                    <div class="cart-product-name">
+                      <p class="product-name">
+                        Áo Dài Tết Cho Chó Mèo Vải Lụa Kèm Quần Rời
+                      </p>
+                      <p class="product-name--detail">Hạc Vàng / S 1.5~2.5kg</p>
+                    </div>
                   </div>
-                </div>
-              </td>
-              <td class="cart-product-price">100.000đ</td>
-              <td>
-                <div class="product-quantity--in-de">
-                  <i class="fa-solid fa-minus"></i>
-                  <span>1</span>
-                  <i class="fa-solid fa-plus"></i>
-                </div>
-              </td>
-              <td class="cart-product-price">200.000đ</td>
-            </tr>
-          </table>
+                </td>
+                <td class="cart-product-price">100.000đ</td>
+                <td>
+                  <div class="product-quantity--in-de">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>1</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </td>
+                <td class="cart-product-price">200.000đ</td>
+              </tr>
+            </table>
+          </div>
           <div>
             <p class="cart-total-title">tổng số tiền</p>
             <div class="form-group">
@@ -201,5 +207,36 @@
         </div>
       </footer>
     </div>
+    <ul class="mobile-menu">
+      <li>
+        <a href="#">Chó</a>
+      </li>
+      <li>
+        <a href="#">Mèo</a>
+      </li>
+      <li>
+        <a href="#">Thời trang boss</a>
+      </li>
+      <li>
+        <a href="#">hàng mới về</a>
+      </li>
+      <li>
+        <a href="#">Pate tươi & raw</a>
+      </li>
+      <li>
+        <a href="#">Deals hot</a>
+      </li>
+      <li>
+        <a href="#">Thương hiệu</a>
+      </li>
+      <li>
+        <a href="#">Chăm boss</a>
+      </li>
+      <li>
+        <a href="#">News</a>
+      </li>
+    </ul>
+
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
