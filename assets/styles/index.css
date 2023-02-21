@@ -1061,10 +1061,11 @@ th:first-child {
   text-transform: capitalize;
   font-weight: 600;
 }
-.mobile-menu.active {
-  transform: translateX(0);
-}
+
 @media screen and (max-width: 1024px) {
+  .mobile-menu.active {
+    transform: translateX(0);
+  }
   .header.mobile {
     display: flex;
     position: fixed;
@@ -1116,7 +1117,7 @@ th:first-child {
   }
   .brands-list a {
     display: block;
-    min-width: 15%;
+    min-width: 35%;
   }
   .footer-list {
     flex-wrap: wrap;
